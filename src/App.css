@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "NotoSans";
+  src: url("./assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100vh;
+  font-family: "NotoSans";
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.extentionCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.appLight {
+  background-color: #d0e8fa;
+  color: #000;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appDark {
+  min-height: 100vh;
+  background: #080b0c; 
+  background: -webkit-linear-gradient(
+    to bottom,
+    #0a222d,
+    #222d31,
+    #0f2027
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #121516,
+    #1f2f35,
+    #34515d
+  ); 
+  color: #fff;
+  transition: all 0.3s ease;
 }
