@@ -1,0 +1,65 @@
+.extentionContainer {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.appLight h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 12px;
+}
+.btn {
+  margin: 3px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(226, 11%, 37%);
+  color: aliceblue;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.appLight .btn {
+  background-color: aliceblue;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #e86e0a;
+}
+
+.appLight .btn:hover {
+  background-color: rgb(224, 124, 124);
+}
+
+@media (max-width: 768px) {
+  .extentionContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .buttonsContainer {
+    margin-top: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    width: 100px;
+  }
+}
