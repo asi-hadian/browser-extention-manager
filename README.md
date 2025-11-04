@@ -40,12 +40,7 @@ Users should be able to:
 - [Styled Components]() - For styles
 
 
-```
-
-
-
-- Website - [Asiyeh.hadian](https://asi-hadian.github.io/browser-extention-manager/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/asi-hadian)
+[demo](https://asi-hadian.github.io/browser-extention-manager)
 
 
 
