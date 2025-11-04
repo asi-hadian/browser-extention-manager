@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbf7f89e.css",
+    "main.js": "/static/js/main.e93f2404.js",
+    "static/media/NotoSans-VariableFont_wdth,wght.ttf": "/static/media/NotoSans-VariableFont_wdth,wght.0e023bdf2fa0b6117356.ttf",
+    "static/media/logo.icon.svg": "/static/media/logo.icon.a887b8f3022c2b45ef77faa6be15bf5c.svg",
+    "index.html": "/index.html",
+    "main.fbf7f89e.css.map": "/static/css/main.fbf7f89e.css.map",
+    "main.e93f2404.js.map": "/static/js/main.e93f2404.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf7f89e.css",
+    "static/js/main.e93f2404.js"
+  ]
+}
